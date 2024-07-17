@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+<div style="text-align: center;">
+  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/logo2.png" style="width:35%">
+</div>
+<br/><br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 뷰리마켓 (Byuri Market)
 
-## Available Scripts
+### 📖 프로젝트 개요
+이 저장소는 뷰리마켓이라는 중고 물품 거래 웹 애플리케이션의 코드를 포함하고 있습니다. 이 시스템은 사용자 등록, 로그인, 물품 등록, 상세 정보 조회, 좋아요 기능 및 삭제 기능을 제공합니다.
+<br/><br/>
 
-In the project directory, you can run:
+### 🚀 프로젝트 목표
+- 사용자 맞춤형 중고 물품 거래 제공
+- 사용자가 물품을 쉽게 등록하고 조회할 수 있는 기능 제공
+- 사용자 간 원활한 거래 지원
 
-### `npm start`
+<br/><br/><br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📝 프로젝트 설명
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 💼 뷰리마켓의 기능
+1. 사용자 등록 및 로그인
+2. 물품 등록
+3. 물품 상세 정보 조회
+4. 좋아요 기능
+5. 물품 삭제
+<br/><br/>
 
-### `npm test`
+### 🗺 기술 설계도
+<img width=100%, height=400px, src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/flow.png"><br/><br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 💻 기술 스택
+- **OS:** &nbsp;&nbsp;![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
+- **프레임워크:** &nbsp;&nbsp;![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- **스타일:** &nbsp;&nbsp;![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- **언어:** &nbsp;&nbsp;![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-### `npm run build`
+<br/><br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ✨ 주요 기능 및 이미지
+📌 Home<br/>
+<img width=100% src=https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/home.png><br/><br/>
+- **메뉴바:** 로고와 각종 기능들을 이용할 수 있는 메뉴 바 구현<br/>
+- **모달창:** 사용자 수준에 맞게 기능들을 이용할 수 있도록 구현<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📌 Login<br/>
+<div style="display: flex; justify-content: space-between;">
+  <img width=100% src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/login1.png" style="width: 49%; height:250px">
+  <img width=100% src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/login2.png" style="width: 49%; height:250px">
+</div><br/><br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **회원가입:** ID를 입력하여 회원가입을 진행<br/>
+- **로그인:** 사용자 로그인 기능 구현<br/><br/><br/>
 
-### `npm run eject`
+📌 Chat<br/>
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/chat.png" style="width: 49%; height:380px;">
+  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/chat2.png" style="width: 49%;">
+</div><br/><br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **채팅:** 오디오 파일을 통한 AI 채팅 기능<br/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📌 Word Management<br/>
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/word1.png" style="width: 49%; height:200px">
+  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/word2.png" style="width: 49%; height:200px">
+</div><br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **단어 생성:** 사용자 맞춤형 단어 생성 기능<br/>
+- **단어 관리:** 사용자 맞춤형 단어 관리 기능<br/><br/><br/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📌 Charts and Search_log<br/>
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/chart1.png" style="width: 49%; height:200px">
+  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/chart2.png" style="width: 49%; height:200px">
+</div><br/>
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/search1.png" style="width: 49%;">
+  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/mypage.png" style="width: 49%;">
+</div><br/>
 
-## Learn More
+- **학습 통계:** 사용자의 학습 통계 제공<br/>
+- **사용자 로그:** 사용자의 검색 로그 및 학습 활동 로그 제공<br/><br/><br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🎧 <a href="https://youtu.be/w89d4ty3znk">시연영상</a>
+</br></br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚙️ 프로젝트 설치 및 실행 방법
 
-### Code Splitting
+### 📝 Prerequisites
+- Node.js 및 npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 📦 설치 방법
+1. 저장소를 클론합니다:
+    ```sh
+    git clone https://github.com/yourusername/byuri-market.git
+    cd byuri-market
+    ```
 
-### Analyzing the Bundle Size
+2. 필요한 Node.js 패키지를 설치합니다:
+    ```sh
+    npm install
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 실행
 
-### Making a Progressive Web App
+1. 프로젝트를 실행합니다:
+    ```sh
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+이렇게 작성된 README 파일이 도움이 되었기를 바랍니다. 추가로 수정하거나 더 필요한 내용이 있으면 말씀해 주세요.
