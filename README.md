@@ -50,35 +50,23 @@
 - **등록:** 사진과 정보를 입력받아 등록진행<br/>
 <br/><br/>
 
-📌 Info<br/>
+📌 Info and Matching<br/>
 <div style="display: flex; justify-content: space-between;">
   <img img src="https://github.com/buseonghyeon/CarrotMarket/blob/main/public/image/info.png" style="width: 49%; height:380px;">
-  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/chat2.png" style="width: 49%;">
+  <img img src="https://github.com/buseonghyeon/CarrotMarket/blob/main/public/image/matching.png" style="width: 49%; height:380px;">
 </div><br/><br/>
 
-- **채팅:** 오디오 파일을 통한 AI 채팅 기능<br/>
+- **상세정보:** 등록한 물건의 정보를 보이는 기능<br/>
+- **매칭:** 상세정보를 통한 판매자 정보 제공<br/>
 
-📌 Word Management<br/>
+📌 Delete<br/>
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/word1.png" style="width: 49%; height:200px">
-  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/word2.png" style="width: 49%; height:200px">
+   <img img src="https://github.com/buseonghyeon/CarrotMarket/blob/main/public/image/delete.png" style="width: 49%; height:380px;">
+   <img img src="https://github.com/buseonghyeon/CarrotMarket/blob/main/public/image/matching.png" style="width: 49%; height:380px;">
 </div><br/>
 
-- **단어 생성:** 사용자 맞춤형 단어 생성 기능<br/>
-- **단어 관리:** 사용자 맞춤형 단어 관리 기능<br/><br/><br/>
-
-📌 Charts and Search_log<br/>
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/chart1.png" style="width: 49%; height:200px">
-  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/chart2.png" style="width: 49%; height:200px">
-</div><br/>
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/search1.png" style="width: 49%;">
-  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/mypage.png" style="width: 49%;">
-</div><br/>
-
-- **학습 통계:** 사용자의 학습 통계 제공<br/>
-- **사용자 로그:** 사용자의 검색 로그 및 학습 활동 로그 제공<br/><br/><br/>
+- **삭제:** 등록한 물건을 삭제 <br/>
+<br/>
 
 ### 🎧 <a href="https://youtu.be/w89d4ty3znk">시연영상</a>
 </br></br>
@@ -91,8 +79,7 @@
 ### 📦 설치 방법
 1. 저장소를 클론합니다:
     ```sh
-    git clone https://github.com/yourusername/byuri-market.git
-    cd byuri-market
+    git clone https://github.com/buseonghyeon/CarrotMarket.git
     ```
 
 2. 필요한 Node.js 패키지를 설치합니다:
@@ -106,5 +93,3 @@
     ```sh
     npm start
     ```
-
-이렇게 작성된 README 파일이 도움이 되었기를 바랍니다. 추가로 수정하거나 더 필요한 내용이 있으면 말씀해 주세요.
