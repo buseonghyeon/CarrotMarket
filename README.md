@@ -25,9 +25,6 @@
 4. 물품 삭제
 <br/><br/>
 
-### 🗺 기술 설계도
-<img width=100%, height=400px, src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/flow.png"><br/><br/>
-
 ### 💻 기술 스택
 - **OS:** &nbsp;&nbsp;![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
 - **프레임워크:** &nbsp;&nbsp;![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
