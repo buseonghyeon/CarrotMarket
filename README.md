@@ -1,16 +1,16 @@
 <div style="text-align: center;">
   <img src="https://github.com/buseonghyeon/CarrotMarket/blob/main/public/image/logo.png" style="width:35%">
 </div>
-<br/><br/>
+<br/>
 
 # 뷰리마켓 (Byuri Market)
 
 ### 📖 프로젝트 개요
-이 저장소는 뷰리마켓이라는 중고 물품 거래 웹 애플리케이션의 코드를 포함하고 있습니다. 이 시스템은 사용자 등록, 로그인, 물품 등록, 상세 정보 조회, 좋아요 기능 및 삭제 기능을 제공합니다.
+뷰리마켓이라는 중고 물품 거래 웹 플랫폼 입니다. 이 웹은 사용자 등록, 로그인, 물품 등록, 상세 정보 조회, 좋아요 기능 및 삭제 기능을 제공합니다.
 <br/><br/>
 
 ### 🚀 프로젝트 목표
-- 사용자 맞춤형 중고 물품 거래 제공
+- 사용자 중고 물품 거래 제공
 - 사용자가 물품을 쉽게 등록하고 조회할 수 있는 기능 제공
 - 사용자 간 원활한 거래 지원
 
@@ -19,11 +19,10 @@
 ## 📝 프로젝트 설명
 
 ### 💼 뷰리마켓의 기능
-1. 사용자 등록 및 로그인
-2. 물품 등록
-3. 물품 상세 정보 조회
-4. 좋아요 기능
-5. 물품 삭제
+1. 물품 등록
+2. 물품 상세 정보 조회
+3. 좋아요 기능
+4. 물품 삭제
 <br/><br/>
 
 ### 🗺 기술 설계도
@@ -39,22 +38,21 @@
 
 ### ✨ 주요 기능 및 이미지
 📌 Home<br/>
-<img width=100% src=https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/home.png><br/><br/>
-- **메뉴바:** 로고와 각종 기능들을 이용할 수 있는 메뉴 바 구현<br/>
-- **모달창:** 사용자 수준에 맞게 기능들을 이용할 수 있도록 구현<br/>
+<img img src="https://github.com/buseonghyeon/CarrotMarket/blob/main/public/image/home.png"><br/><br/>
+- **메인화면:** 물품을 등록할수 있는 버튼 구현<br/>
 
-📌 Login<br/>
+📌 Register<br/>
 <div style="display: flex; justify-content: space-between;">
-  <img width=100% src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/login1.png" style="width: 49%; height:250px">
-  <img width=100% src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/login2.png" style="width: 49%; height:250px">
+  <img width=100% img src="https://github.com/buseonghyeon/CarrotMarket/blob/main/public/image/register.png" style="width: 49%; height:250px">
+  <img width=100% img src="https://github.com/buseonghyeon/CarrotMarket/blob/main/public/image/home2.png" style="width: 49%; height:250px">
 </div><br/><br/>
 
-- **회원가입:** ID를 입력하여 회원가입을 진행<br/>
-- **로그인:** 사용자 로그인 기능 구현<br/><br/><br/>
+- **등록:** 사진과 정보를 입력받아 등록진행<br/>
+<br/><br/>
 
-📌 Chat<br/>
+📌 Info<br/>
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/chat.png" style="width: 49%; height:380px;">
+  <img img src="https://github.com/buseonghyeon/CarrotMarket/blob/main/public/image/info.png" style="width: 49%; height:380px;">
   <img src="https://github.com/buseonghyeon/intelligent-web/blob/master/front/public/images/chat2.png" style="width: 49%;">
 </div><br/><br/>
 
