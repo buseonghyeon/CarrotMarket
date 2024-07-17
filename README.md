@@ -68,7 +68,7 @@
 - **삭제:** 등록한 물건을 삭제 <br/>
 <br/>
 
-### 🎧 <a href="https://youtu.be/w89d4ty3znk">시연영상</a>
+### 🎧 <a href="https://youtu.be/Z0eZ9Uvy5Mg">시연영상</a>
 </br></br>
 
 ## ⚙️ 프로젝트 설치 및 실행 방법
